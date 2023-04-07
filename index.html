@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <title>Задание 2</title>
+</head>
+<body>
+   <!-- Создать html-страницу с формой. 
+      Сделать отправку формы по почте. 
+      Обязательно добавить в архив скриншот письма, которое вам пришло. -->
+
+      <div class="container">
+         <div class="cirkle"></div>
+         <img class="first" src="./img-2.jpg" alt="Floewrs">
+         <img  class="second"src="./img-1.jpg" alt="Girl with flowers">
+         
+         <div class="registration">
+            <form action="mail.php" method="post">
+      			<legend>Напишіть нам</legend>
+
+      			<div class="text_name">
+      				<label for="">Ім'я</label>
+      				<input type="text" name="user_name" class="form-control" placeholder="Ім'я">
+      			</div>
+
+      			<div class="text_num">
+      				<label for="">Телефон</label>
+      				<input type="text" name="user_phone" class="form-control" placeholder="+38(099) 99 99 999">
+      			</div>
+
+      			<div class="text_email">
+      				<label for="">Введіть email</label>
+      				<input type="text" name="user_email" class="form-control" placeholder="test@gmail.com">
+      			</div>
+
+               <textarea  name="user_text" placeholder="Введіть текст"></textarea>
+
+      			<button type="submit" class="btn btn-primary">Надіслати на розгляд</button>
+      		</form>
+         </div>
+      </div>
+
+      <script type="text/javascript"></script>
+</body>
+</html>
